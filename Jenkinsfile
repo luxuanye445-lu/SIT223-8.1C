@@ -25,8 +25,5 @@ pipeline {
     stage('Stage 7: Deploy to Production') {
       steps { echo 'Task: Deploy to production environment; Example tools: Ansible / Helm / ArgoCD (GitOps)' }
     }
-    stage('Stage 8: Deploy to Production') {
-      steps { echo 'Task: Deploy to production environment; Example tools: Ansible / Helm / ArgoCD (GitOps)' }
-    }
   }
 }
